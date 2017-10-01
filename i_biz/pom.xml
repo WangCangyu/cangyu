@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bdqn</groupId>
-    <artifactId>intelligentCommunity</artifactId>
+    <artifactId>IntelligenceCommunity</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>i_biz</artifactId>
   <name>i_biz</name>
-  
-  <dependencies>
+ 
+ <dependencies>
 		<dependency>
 			<groupId>com.bdqn</groupId>
 			<artifactId>i_dao</artifactId>

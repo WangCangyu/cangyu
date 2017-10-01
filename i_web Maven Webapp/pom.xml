@@ -4,10 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bdqn</groupId>
-    <artifactId>intelligentCommunity</artifactId>
+    <artifactId>IntelligenceCommunity</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
- 
   <artifactId>i_web</artifactId>
   <packaging>war</packaging>
   <name>i_web Maven Webapp</name>
@@ -95,7 +94,6 @@
 			<version>2.1.1</version>
 		</dependency>
 	</dependencies>
-  
   <build>
     <finalName>i_web</finalName>
   </build>
