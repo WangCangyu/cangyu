@@ -50,9 +50,10 @@
 			<version>4.3.10.RELEASE</version>
 		</dependency>
 	</dependencies>
-  <build>
-  	<finalName>intelligenceCommunity</finalName>
-  	<plugins>
+	
+	<build>
+		<finalName>intelligentCommunity</finalName>
+		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
@@ -63,13 +64,12 @@
 				</configuration>
 			</plugin>
 		</plugins>
-  
-  </build>
+	</build>
+ 
   <modules>
-    <module>i_dao</module>
     <module>i_entity</module>
+    <module>i_dao</module>
     <module>i_biz</module>
     <module>i_web</module>
-    <module>i_until</module>
   </modules>
 </project>

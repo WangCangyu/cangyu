@@ -7,12 +7,11 @@
     <artifactId>intelligentCommunity</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.bdqn</groupId>
+ 
   <artifactId>i_web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>i_web Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  
   <dependencies>
 		<!-- 业务逻辑依赖 -->
 		<dependency>
@@ -96,6 +95,7 @@
 			<version>2.1.1</version>
 		</dependency>
 	</dependencies>
+  
   <build>
     <finalName>i_web</finalName>
   </build>
