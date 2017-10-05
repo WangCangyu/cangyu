@@ -15,7 +15,7 @@
             http://www.springframework.org/schema/context 
             http://www.springframework.org/schema/context/spring-context.xsd">
 	<!-- 1. 扫描 业务逻辑和 dao 中的注解 -->
-	<context:component-scan base-package="com.by" />
+	<context:component-scan base-package="com.bdqn" />
 
 	<!-- 2. 读取数据库配置文件 -->
 	<context:property-placeholder
@@ -93,14 +93,14 @@
 		</tx:attributes>
 	</tx:advice>
 	<aop:config>
-		<aop:pointcut expression="execution(* com.by.biz..*.*(..))" id="bizMethod" />
+		<aop:pointcut expression="execution(* com.bdqn.biz..*.*(..))" id="bizMethod" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="bizMethod" />
 	</aop:config>
 	<!-- AOP 事务处理 结束 -->
 
 	<!-- 6. 扫描 sql 映射文件 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.by.dao" />
+		<property name="basePackage" value="com.bdqn.dao" />
 	</bean>
 </beans>
 
